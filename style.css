@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 215, 0.169);
+    position: relative;
+}
+
+#myvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#nav{
+    width: 100%;
+    height: 30%;
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+
+#nav #black{
+    width: 95%;
+    height: 27%;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#nav #black #headphone i{
+    color: white;
+}
+
+#nav #black #search{
+    color: white;
+    display: flex;
+}
+
+#search i{
+    margin-left: 15px;
+}
+
+#nav>i{
+    margin-left: 30px;
+}
+
+#box{
+    width: 85%;
+    height: 35%;
+    background-color: rgba(0, 0, 255, 0.443);
+    position: absolute;
+    top: 42%;
+}
+#box #up{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#box #up h1{
+    color: white;
+    letter-spacing: 9px;
+    font-size: 60px;
+    line-height: 45px;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+}
+
+#box #img{
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    left: 55%;
+    top: -40%;
+} 
+
+#box #img img{
+    width: 100%;   
+    height: 100%;
+}
+
+#box #pbtn{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    left: 70%;
+    top: -10%;
+}
+
+#pbtn>img{
+    width: 90%;
+    height: 90%;
+}
+
+#box #down{
+    height: 60%;
+    position: relative;
+    display: flex;
+    padding: 30px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+#box #left{
+    display: flex;
+    width: 50%;
+}
+
+#box #down #number{
+    color: white;
+    margin-right: 60px;
+}
+
+#number>h4{
+    letter-spacing: 5px;
+}
+
+#number>h6{
+    letter-spacing: 3px;
+}
+
+#box #icon i{
+    color: white;
+    margin-left: 30px;
+}
+#box #right{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#box #right p{
+    color: white;
+    font-size: 10px;
+    margin-left: 50px;
+    position: relative;
+}
+
+#box #right #amazon{
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    position: absolute;
+    right: 10%;
+    top: -20%;
+    color: white;
+    padding: 5px 5px;
+}
+
+#amazon>i{
+    margin-left: 12px;
+}
+
+#amazon>h6{
+    font-size: 8px;
+    font-weight: 300;
+}
+
+#bottom{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    justify-content: space-between;
+}
+
+#strips{
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#strips .s{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#l{
+    height: 100%;
+    display: flex;
+}
+
+#l>h6{
+    font-size: 7px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+#strips #strip1{
+    background-color: rgba(0, 0, 0, 0.701);
+}
+
+#strips .pic{
+    width: 30px;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#strips img{
+    width: 100%;
+    height: 100%;
+}
+
+#strips #strip3{
+    background-color: rgba(0, 0, 0, 0.701);
+}
+
+.s .play{
+    width: 30px;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.s .play img{
+    width: 100%;
+    height: 100%;
+}
+
+#bottom #content{
+    color: white;
+    width: 25%;
+    height: 100%;
+    margin-right: 20%;
+}
+
+#bottom #content p{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.653);
+    margin-top: 10px;
+}
